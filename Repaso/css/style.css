@@ -1,0 +1,10 @@
+:root { /*siempre se inicializa, etiqueta html*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 75%; /*Ancho de la tabla*/
+    /*tabla centrada*/
+}
