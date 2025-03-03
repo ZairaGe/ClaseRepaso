@@ -1,10 +1,109 @@
-:root { /*siempre se inicializa, etiqueta html*/
+@font-face {
+    font-family: pokemon;
+    src: url('Pokemon\ Solid.ttf');
+}
+
+:root {
+    /*siempre se inicializa, etiqueta html*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-table {
-    width: 75%; /*Ancho de la tabla*/
-    /*tabla centrada*/
+body {
+    background-image: url('img/wallpaper-mewtwo-black-pokemon-fond-ecran-4K-HD-manga-mobile-desktop-ordinateur-tablette-scaled.jpg');
+    background-size: cover;
+    /*ocupa todo el espacio disponible*/
 }
+
+h1 {
+    font-family: pokemon;
+    color: yellow;
+    text-shadow: -1px 0 blue, 0 3px blue, 1px 0 blue, 0 -1px blue;
+    font-size: 3rem;
+    text-align: center;
+    /*centrar texto*/
+}
+
+table {
+    width: 80%;
+    /*Ancho de la tabla*/
+    border: 1px solid black;
+    /*tabla centrada*/
+    margin: auto;
+    /*centra*/
+
+}
+
+td {
+    background-color: lightgray;
+    width: 25%;
+    text-align: center;
+}
+
+img.pokemon {
+    /*width: 100%; 100% del ancho del padre*/
+    height: 150px;
+}
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr#con_imagen_de_fondo {
+    height: 250px;
+
+}
+
+tr#con_imagen_de_fondo td {
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 6rem;
+    /*pone margen entre imagen y letra*/
+    background-position: 50%;
+}
+
+td#charmeleon {
+    background-image: url('img/005.png');
+}
+
+td#charizard {
+    background-image: url('img/006.png');
+}
+
+td#squirtle {
+    background-image: url('img/007.png');
+}
+
+td#wartortle {
+    background-image: url('img/008.png');
+}
+
+/*FORMULARIO*/
+
+#formulario {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.elemento label,
+.elemento input {
+    display: inline-block;
+    width: 10rem;
+}
+
+/*.dentro {
+    background-color: red;
+    min-width: 100;
+    border: 1px solid black;
+    display: inline-block
+}
+    <div class="dentro"
+    
+    ctrl mayus p --> dar formato 
+    shift alt f --> da formato*/

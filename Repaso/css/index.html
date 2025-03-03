@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-        <h1>Pokedex</h1>
 
-        <table>
-            <tr>
-                <td>
-                    <img class="pokemon" src="img/001.png" 
-                    alt="Bulbasur">
-                    <p class="nombre">Bulbasur</p>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr></tr>
-        </table>
+<body>
+
+    <h1>Pokedex</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img class="pokemon" src="img/001.png" alt="Bulbasur">
+                <p class="nombre">Bulbasur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/002.png" alt="Ivysaur">
+                <p class="nombre">Ivysaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/003.png" alt="Venusaur">
+                <p class="nombre">Venusaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/004.png" alt="Charmander">
+                <p class="nombre">Charmander</p>
+            </td>
+        </tr>
+        <tr id="con_imagen_de_fondo">
+            <td id="charmeleon">
+                <p class="nombre">Charmeleon</p>
+            </td>
+            <td id="charizard">
+                <p class="nombre">Charizard</p>
+            </td>
+            <td id="squirtle">
+                <p class="nombre">Squirtle</p>
+            </td>
+            <td id="wartortle">
+                <p class="nombre">Wartortle</p>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+
+    <div id="formulario">
+        <form action="zairagonzalez@gmail.com">
+            <div class="elemento">
+                <label for="nombre">Nombre*: </label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <div class="elemento"></div>
+                <label for="email">Email*: </label>
+                <input type="email" name="email" id="email" required>
+
+                <div class="elemento"></div>
+                <label for="fnacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fnacimiento" id="fnacimiento">
+
+                <div class="elemento">
+                    <input type="submit" value="Enviar">
+        </form>
+    </div>
 
 </body>
+
 </html>
